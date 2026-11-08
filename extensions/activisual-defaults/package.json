@@ -1,0 +1,21 @@
+{
+  "name": "activisual-defaults",
+  "displayName": "Activisual Code Defaults",
+  "description": "Standard editor defaults for Activisual Code.",
+  "version": "1.0.0",
+  "publisher": "activisual",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "contributes": {
+    "configurationDefaults": {
+      "workbench.sideBar.location": "right",
+      "workbench.secondarySideBar.defaultVisibility": "hidden",
+      "workbench.activityBar.location": "top",
+      "workbench.startupEditor": "agentSessionsWelcomePage",
+      "explorer.autoReveal": false,
+      "kilo-code.new.autocomplete.enableAutoTrigger": false
+    }
+  }
+}
